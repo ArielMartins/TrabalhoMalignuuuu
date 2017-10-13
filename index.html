@@ -1,134 +1,746 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
-
-Name       : StylePrecision 
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20130720
-
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from fitnesspro.wecookcode.com/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Sep 2017 03:44:36 GMT -->
 <head>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>StylePrecision by TEMPLATED</title>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css' />
-<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.slidertron-1.1.js"></script>
-</head>
-<body>
-<div id="wrapper">
-	<div id="page" class="container">
-		<div id="header" class="container">
-			<div id="logo">
-				<h1><a href="#">StylePrecision </a></h1>
-			</div>
-			<div id="menu">
-				<ul>
-					<li class="current_page_item"><a href="#">Homepage</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Photos</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-		<div id="banner">
-			<div id="slider">
-				<div class="viewer">
-					<div class="reel">
-						<div class="slide"> <img src="images/pic01.jpg" alt="" /> </div>
-						<div class="slide"> <img src="images/pic02.jpg" alt="" /> </div>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Fitness Pro</title>
+
+		<!-- CSS -->
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Font Awesome -->
+		<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Linearicons -->
+		<link href="fonts/linearicons/style.css" rel="stylesheet">
+		<!-- Owl Carousel -->
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.default.css" rel="stylesheet">
+		<!-- Animate.css -->
+		<link href="css/animate.min.css" rel="stylesheet">
+		<!--Magnific Popup -->
+		<link href="scripts/magnific-popup/magnific-popup.css" rel="stylesheet">
+		<!-- Style.css -->
+		<link href="css/style.css" rel="stylesheet">
+
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header class="header">
+			<div class="top">
+				<div class="container clearfix">
+					<div class="collapse in" id="top-collapse" aria-expanded="true" role="tabpanel">
+						<nav class="top-contacts">
+						<ul class="list-unstyled">
+							<li><a href="http://maps.apple.com/?q=51.507269,-0.127695"><i class="fa fa-map-marker" aria-hidden="true"></i>20 williams street</a></li>
+							<li><a href="tel:1900-45-20"><i class="fa fa-phone" aria-hidden="true"></i>1900-45-20</a></li>
+							<li><a href="mailto:fitnesspro@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>fitnesspro@gmail.com</a></li>
+						</ul>
+						</nav> <!-- end .top-contacts -->
+						<nav class="top-contacts right">
+						<ul class="list-unstyled">
+							<li><i class="fa fa-clock-o" aria-hidden="true"></i>07:00 ás 22:00, seg-sab</li>
+							<li><i class="fa fa-shopping-bag" aria-hidden="true"></i>(0)</li>							
+						</ul>
+						</nav> <!-- end .top-contacts .right -->
+					</div> <!-- end .collapse -->
+					<a href="#top-collapse" role="button" data-toggle="collapse" aria-expanded="true" aria-controls="top-collapse" class="top-collapse-open"><i class="lnr lnr-chevron-down"></i></a>
+				</div> <!-- end .container -->
+			</div> <!-- end .top -->
+			<div class="logo"><a href="index.html"><img src="images/logo.png" alt="Financeness" class="img-responsive"></a></div>	
+			<div class="bottom">
+				<div class="container clearfix">
+					<div class="navigation clearfix">
+						<nav class="main-nav">
+							<ul class="list-unstyled">
+								<li class="active"><a href="index.html">Inicio</a></li>
+								<li><a href="team.html">Aulas</a></li>
+								<li><a href="planos.html">Planos</a></li>
+								<li><a href="gallery.html">Galeria</a></li>
+								<li><a href="shop.html">Loja</a></li>
+								<li><a href="blog.html">Remover</a></li>
+								<li><a href="contact.html">Contato</a></li>
+							</ul>
+						</nav> <!-- end .main-nav -->
+						<a href="#" class="responsive-menu-open"><i class="lnr lnr-menu"></i></a>
+					</div> <!-- end .navigation -->
+					<div class="right">
+						<a href="#" class="search-open"><i class="fa fa-search" aria-hidden="true"></i></a>
+					</div> <!-- end .right -->
+				</div> <!-- end .container -->
+			</div> <!-- end .bottom -->
+
+			<!-- Search -->
+			<div class="search-bar">
+				<div class="container">
+					<form class="search-form">
+						<input type="text" name="search-text" id="search-text" placeholder="Search your entry here ...">
+						<button type="submit">Search</button>
+					</form>
+					<a href="#" class="search-close"><i class="fa fa-close" aria-hidden="true"></i></a>
+				</div> <!-- end .container -->
+			</div> <!-- end .search-bar -->
+
+		</header> <!-- end .header -->
+		<!-- Responsive Menu -->
+		<div class="responsive-menu">
+			<a href="#" class="responsive-menu-close"><i class="lnr lnr-cross"></i></a>
+			<nav class="responsive-nav"></nav> <!-- end .responsive-nav -->
+		</div> <!-- end .responsive-menu -->
+
+		<!-- Home Slider -->
+		<div class="home-slider owl-carousel owl-theme">
+			<div class="item text-left">
+				<div class="inner">
+					<div class="row">
+						<div class="col-sm-5 col-md-offset-2 text">
+							<div class="text-inner">					
+								<h2>Começe agora por R$50,00</h2>
+								<h1>Faça<br>parte<span class="orange">da nossa academia</span>.</h1>
+								<p>Bem vindo a nossa academia, confira nossos planos e preços<br>e começe a treinar hoje mesmo.</p>
+								<div class="button-row">
+									<div class="btn-group">
+										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<span><i class="fa fa-users"></i></span>
+										</button>
+										<a href="planos.html" class="button orange"><div>Planos</div></a>
+									</div> <!-- end .btn-group -->
+									<a href="#0" class="button transparent"><div>Loja</div></a>
+								</div> <!-- end .button-row -->
+							</div> <!-- end .text-inner -->
+						</div> <!-- end .col-sm-5 -->
+						<div class="col-sm-5 image">
+							<div class="image-bg" style="background-image: url('images/background01.png');"></div>
+						</div> <!-- end .col-sm-5 -->
+					</div> <!-- end .row -->
+				</div> <!-- end .inner -->
+			</div> <!-- end .item -->
+			<div class="item text-left">
+				<div class="inner">
+					<div class="row">
+						<div class="col-sm-5 col-md-offset-2 text">
+							<div class="text-inner">					
+								<h2>Começe agora por R$50,00</h2>
+								<h1>Faça<br>parte<span class="orange">da nossa academia</span>.</h1>
+								<p>Bem vindo a nossa academia, confira nossos planos e preços<br>e começe a treinar hoje mesmo.</p>
+								<div class="button-row">
+									<div class="btn-group">
+										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<span><i class="fa fa-users"></i></span>
+										</button>
+										<a href="#0" class="button orange"><div>Planos</div></a>
+									</div> <!-- end .btn-group -->
+									<a href="#0" class="button transparent"><div>Loja</div></a>
+								</div> <!-- end .button-row -->
+							</div> <!-- end .text-inner -->
+						</div> <!-- end .col-sm-5 -->
+						<div class="col-sm-5 image">
+							<div class="image-bg" style="background-image: url('images/background01.jpg');"></div>
+						</div> <!-- end .col-sm-5 -->
+					</div> <!-- end .row -->
+				</div> <!-- end .inner -->
+			</div> <!-- end .item -->
+		</div> <!-- end .home-slider -->
+
+		<!-- Features -->
+		<div class="section text-left">
+			<div class="row no-gutter">
+				<div class="col-lg-4 no-padding">
+					<div class="feature-box">
+						<img src="images/feature-box-01.jpg" alt="features" class="img-responsive">
+						<div class="details">
+							<h4>Professores Qualificados</h4>							
+							<p>Treine com os melhores profissionais da região</p>
+							<a href="#0">Veja Mais</a>
+							<i class="fa fa-users background-icon" aria-hidden="true"></i>
+						</div> <!-- end .details -->
+					</div> <!-- end .feature-box -->
+				</div> <!-- end .col-md-4 -->
+				<div class="col-lg-4 no-padding">
+					<div class="feature-box">
+						<img src="images/feature-box-02.jpg" alt="features" class="img-responsive">
+						<div class="details highlight">
+							<h4>Menores Preços</h4>							
+							<p>Criamos planos com preços especiais para nossos clientes , obtenha o máximo com o menor preço.</p>
+							<a href="#0">Veja Mais</a>
+							<i class="fa fa-usd background-icon" aria-hidden="true"></i>
+						</div> <!-- end .details -->
+					</div> <!-- end .feature-box -->
+				</div> <!-- end .col-md-4 -->
+				<div class="col-lg-4 no-padding">
+					<div class="feature-box">
+						<img src="images/feature-box-03.jpg" alt="features" class="img-responsive">
+						<div class="details">
+							<h4>A melhor loja</h4>							
+							<p>Nossa loja oferece uma grande variedade de produtos. Partindo de acessórios de treinamento até suplementos. </p>
+							<a href="#0">Veja Mais</a>
+							<i class="fa fa-shopping-bag background-icon" aria-hidden="true"></i>
+						</div> <!-- end .details -->
+					</div> <!-- end .feature-box -->
+				</div> <!-- end .col-md-4 -->
+			</div> <!-- end .row -->
+		</div> <!-- end .section -->
+
+		
+		
+
+		<!-- Pricing tables -->
+		<div id="pricing-section" class="section text-center pricing-table-section">
+			<div class="inner">
+				<div class="container">
+					<div class="pricing">
+						<h1 class="dark">Cheque<span class="orange">nossos preços</span></h1>
+					</div> <!-- end .pricing -->
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="pricing-plan-title">
+								<h3>BÁSICO</h3>
+							</div>
+							<div class="pricing-table">
+								<div class="price">	
+									<p><sup>$</sup><span>10</span><sub>/day</sub></p>							
+								</div> <!-- end .price -->
+								<ul class="list-unstyled">								
+									<li>3 dias de acesso</li>
+									<li>Sem personal exclusivo</li>
+									<li>Grupos de treino</li>
+									<li>Apenas dias de semana</li>
+								</ul>
+								<div class="buy">
+								<a href="#0" class="button load-more">COMEÇAR AGORA</a>	
+								</div> <!-- end .buy -->		
+							</div> <!-- end .pricing-table -->
+						</div> <!-- end .col-md-4 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="pricing-plan-title monthly">
+								<h3>GOLD</h3>
+							</div>
+							<div class="pricing-table power">
+								<div class="price">	
+									<p><sup>$</sup><span>20</span><sub>/day</sub></p>							
+								</div> <!-- end .price -->
+								<ul class="list-unstyled">								
+									<li>5 dias de acesso</li>
+									<li>Sem personal exclusivo</li>
+									<li>Grupos de treino</li>
+									<li>Disponível finais de semana</li>
+								</ul>
+								<div class="buy">
+								<a href="#0" class="button load-more">COMEÇAR AGORA</a>	
+								</div> <!-- end .buy -->		
+							</div> <!-- end .pricing-table -->
+						</div> <!-- end .col-md-4 -->
+						<div class="col-md-4 col-sm-6">
+							<div class="pricing-plan-title">
+								<h3>BLACK</h3>
+							</div>
+							<div class="pricing-table">
+								<div class="price">	
+									<p><sup>$</sup><span>50</span><sub>/day</sub></p>							
+								</div> <!-- end .price -->
+								<ul class="list-unstyled">								
+									<li>5 dias de acesso</li>
+									<li>Personal exclusivo</li>
+									<li>Grupos de treino</li>
+									<li>Disponível finais de semana</li>
+								</ul>
+								<div class="buy">
+								<a href="#0" class="button load-more">COMEÇAR AGORA</a>	
+								</div> <!-- end .buy -->		
+							</div> <!-- end .pricing-table -->
+						</div> <!-- end .col-md-4 -->
+					</div> <!-- end .row -->
+				</div> <!-- end .container -->
+			</div> <!-- end .inner -->
+		</div> <!-- end .section -->
+
+		<!-- Tips Slider -->
+		<div class="section tips-slider owl-carousel owl-theme  tips-slider-section">
+			<div class="item">
+				<div class="row no-gutter">
+					<div class="col-md-5">
+						<div class="left-side-content">
+							<img src="images/background03.jpg" alt="tips-slider-image">
+						</div> <!-- end .join-us-left -->
+					</div> <!-- end .col-md-5 -->
+					<div class="col-md-6 col-md-offset-1">
+						<div class="right-side-content text-left">
+							<h1><span class="orange">Dicas</span>do dia!</h1>
+							<img src="images/barbell-dark-icon.png" alt="barbell-icon" class="img-responsive">
+							<p>Aqui estão algumas dicas que escolhemos para melhorar seu dia<br>esperamos que ajude a atingir seus objetivos</p>
+							<ul class="list-unstyled">
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>Treine cerca de três a quatro vezes por semana</li>
+								<li><i class="fa fa-times" aria-hidden="true"></i>Treinar todos os dias não é um plano de treinamento apropriado</li>
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>Você pode fazer cardio após cada treinamento</li>
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>Fazer o exercício corretamente é o mais importante</li>
+								<li><i class="fa fa-times" aria-hidden="true"></i>Fazer cardio todos os dias não é um plano de treinamento adequado</li>
+							</ul>
+							<div class="trainer-meta">
+								<h1 class="small">Celia Bea</h1>
+								<p>Fintness trainer</p>
+							</div> <!-- end .trainer-meta -->
+						</div> <!-- end .right-side-content -->
+					</div> <!-- end .col-md-6 -->
+				</div> <!-- end .row -->
+			</div> <!-- end .item -->
+			<div class="item">
+				<div class="row no-gutter">
+					<div class="col-md-5">
+						<div class="left-side-content">
+							<img src="images/background03.jpg" alt="tips-slider-image">
+						</div> <!-- end .join-us-left -->
+					</div> <!-- end .col-md-5 -->
+					<div class="col-md-6 col-md-offset-1">
+						<div class="right-side-content text-left">
+							<h1><span class="orange">Tips</span>of the day!</h1>
+							<img src="images/barbell-dark-icon.png" alt="barbell-icon" class="img-responsive">
+							<p>Here are the tips we have choosen for the best of the day. We<br>hope they will help you in reaching your goals</p>
+							<ul class="list-unstyled">
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>Train about threee to four times per week</li>
+								<li><i class="fa fa-times" aria-hidden="true"></i>Training everyday is not proper training plan</li>
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>You can do cardio after each training</li>
+								<li><i class="fa fa-check-circle" aria-hidden="true"></i>Doing the exrcise properly is the most important</li>
+								<li><i class="fa fa-times" aria-hidden="true"></i>Doing cardio everyday is not proper training plan</li>
+							</ul>
+							<div class="trainer-meta">
+								<h1 class="small">Celia Bea</h1>
+								<p>Fintness trainer</p>
+							</div> <!-- end .trainer-meta -->
+						</div> <!-- end .right-side-content -->
+					</div> <!-- end .col-md-6 -->
+				</div> <!-- end .row -->
+			</div> <!-- end .item -->
+		</div> <!-- end .tips-slider -->
+
+
+		<!-- Portfolio -->
+		<div class="section gallery-section no-padding-top no-padding-bottom text-center">
+			<div class="inner">
+				<div class="testimonial-slider owl-carousel owl-theme">
+					<div class="item">
+						<svg width="0" height="0">
+	  						<clipPath id="clipPolygon-1" clipPathUnits="objectBoundingBox">
+	    						<polygon points="0 0, 0.74 0, 1 1, 0 1"></polygon>
+	 						 </clipPath>
+						</svg>
+						<img src="images/background06.jpg" alt="testimonial-slider-background" class="img-responsive">
+						<div class="blockquote-box">
+							<h3 class="dark">Abby & Windsor</h3>
+							<p>Fintess experts</p>
+							<p class="blockquote">This is the best fintess center where we have ever trained. The equipment of the gym is just amazing. You have all what you need for perfect training.</p>
+							<div class="blockquote-icon">
+								<span>&ldquo;</span>
+							</div>
+						</div> <!-- end .blockquote-box -->
+					</div> <!-- end .item -->
+					<div class="item">
+						<svg width="0" height="0">
+	  						<clipPath id="clipPolygon-2" clipPathUnits="objectBoundingBox">
+	    						<polygon points="0 0, 0.74 0, 1 1, 0 1"></polygon>
+	 						 </clipPath>
+						</svg>
+						<img src="images/background06.jpg" alt="testimonial-slider-background" class="img-responsive">
+						<div class="blockquote-box">
+							<h3 class="dark">Abby & Windsor</h3>
+							<p>Fintess experts</p>
+							<p class="blockquote">This is the best fintess center where we have ever trained. The equipment of the gym is just amazing. You have all what you need for perfect training.</p>
+							<div class="blockquote-icon">
+								<span>&ldquo;</span>
+							</div>
+						</div> <!-- end .blockquote-box -->
+					</div> <!-- end .item -->
+				</div> <!-- end .testimonial-slider -->
+				<div class="gallery-slider owl-carousel owl-theme">
+					<div class="item">
+						<figure>
+							<img src="images/gallery01.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery01.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery01.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+						<figure>
+							<img src="images/gallery02.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery02.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery02.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+					</div> <!-- end .item -->
+					<div class="item">
+						<figure>
+							<img src="images/gallery02.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery02.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery02.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+						<figure>
+							<img src="images/gallery03.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery03.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery03.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+					</div> <!-- end .item -->
+					<div class="item">
+						<figure>
+							<img src="images/gallery03.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery03.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery03.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+						<figure>
+							<img src="images/gallery04.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery04.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery04.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+					</div> <!-- end .item -->
+					<div class="item">
+						<figure>
+							<img src="images/gallery04.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery04.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery04.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+						<figure>
+							<img src="images/gallery05.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery05.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery05.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+
+					</div> <!-- end .item -->
+					<div class="item">
+						<figure>
+							<img src="images/gallery05.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery05.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery05.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+						<figure>
+							<img src="images/gallery06.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery06.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery06.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+					</div> <!-- end .item -->
+					<div class="item">
+						<figure>
+							<img src="images/gallery06.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery06.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery06.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+						<figure>
+							<img src="images/gallery07.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery07.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery07.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+					</div> <!-- end .item -->
+					<div class="item">
+						<figure>
+							<img src="images/gallery07.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery07.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery07.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+						<figure>
+							<img src="images/gallery08.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery08.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery08.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+					</div> <!-- end .item -->
+					<div class="item">
+						<figure>
+							<img src="images/gallery08.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery08.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery08.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+						<figure>
+							<img src="images/gallery07.jpg" alt="gallery" class="img-responsive">
+							<a href="images/gallery07.jpg" class="image-lightbox-gallery overlay"><img src="images/gallery07.jpg" alt="image-gallery"/><span><i class="fa fa-search" aria-hidden="true"></i></span></a>	
+						</figure>
+					</div> <!-- end .item -->
+				</div> <!-- end .gallery-slider -->
+			</div> <!-- end .inner -->
+		</div> <!-- end .section -->
+
+		<!-- Product-Grid -->
+		<div class="section text-center">
+			<div class="inner">
+				<div class="container">
+					<h1 class="dark">Latest<span class="orange">Products</span></h1>
+					<div class="section-title-icon">
+						<img src="images/barbell-icon.png" alt="barbell-icon" class="img-responsive">
+					</div>					
+					<div class="section-title-description">
+						<p>Here are the lastest produycts we have just added in your shop.<br>As always we just offer you the best.</p>
 					</div>
-				</div>
-			</div>
-			<script type="text/javascript">
-				$('#slider').slidertron({
-					viewerSelector: '.viewer',
-					reelSelector: '.viewer .reel',
-					slidesSelector: '.viewer .reel .slide',
-					advanceDelay: 3000,
-					speed: 'slow'
-				});
-			</script> 
-		</div>
-		<div id="content">
-			<div class="title">
-				<h2>Welcome to our website</h2>
-				<span class="byline">Phasellus nec erat sit amet nibh pellentesque congue</span> </div>
-			<p>This is <strong>StylePrecision</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p>
-			<div id="two-column">
-				<div id="tbox1">
-					<div class="title">
-						<h2>Fusce fringilla</h2>
-					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem.</p>
-					<ul class="style2">
-						<li><a href="#">Semper mod quis eget mi dolore</a></li>
-						<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-						<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-						<li><a href="#">Consequat etiam lorem phasellus</a></li>
-						<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-					</ul>
-					<a href="#" class="icon icon-file-alt button">Read More</a> </div>
-				<div id="tbox2">
-					<div class="title">
-						<h2>Maecenas luctus</h2>
-					</div>
-					<p>Etiam non felis. Donec ut ante. In id eros. Sed dictum rutrum massa eu volutpat. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>
-					<ul class="style2">
-						<li><a href="#">Semper mod quis eget mi dolore</a></li>
-						<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-						<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-						<li><a href="#">Consequat etiam lorem phasellus</a></li>
-						<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-					</ul>
-					<a href="#" class="icon icon-ok button">Read More</a> </div>
-			</div>
-		</div>
-		<div id="sidebar">
-			<div class="box1">
-				<div class="title">
-					<h2>Mauris vulputate</h2>
-				</div>
-				<ul class="style2">
-					<li><a href="#">Semper mod quis eget mi dolore</a></li>
-					<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-					<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-					<li><a href="#">Consequat etiam lorem phasellus</a></li>
-					<li><a href="#">Semper mod quis eget mi dolore</a></li>
-					<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-					<li><a href="#">Semper mod quisturpis nisi</a></li>
-				</ul>
-			</div>
-			<div class="box2">
-				<div class="title">
-					<h2>Integer gravida</h2>
-				</div>
-				<ul class="style2">
-					<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-					<li><a href="#">Ornare in hendrerit in lectus</a></li>
-					<li><a href="#">Semper mod quis eget mi dolore</a></li>
-					<li><a href="#">Quam turpis feugiat sit dolor</a></li>
-					<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-					<li><a href="#">Semper mod quisturpis nisi</a></li>
-					<li><a href="#">Consequat etiam lorem phasellus</a></li>
-				</ul>
-					<a href="#" class="icon icon-file-alt button">Read More</a> </div>
-			</div>
-		</div>
-	</div>
-	<!-- end #page --> 
-</div>
-<div id="footer">
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
-</div>
-<!-- end #footer -->
-</body>
+					<div id="product3Col-filters" class="product-filters">
+						<button class="active" data-filter="*"><span>All</span></button>
+						<button data-filter=".protein"><span>Protein</span></button>
+						<button data-filter=".vitamins"><span>Vitamins</span></button>
+						<button data-filter=".accessories"><span>Accessories</span></button>
+						<button data-filter=".more"><span>More</span></button>
+					</div> <!-- end .portfolio-filters -->
+					<div id="product3Col" class="products product3Col">
+						<div class="product-sizer"></div> <!-- DO NOT REMOVE -->
+						<div class="item accessories protein">
+							<figure>
+								<div class="product-featured-img">
+									<img src="images/product-grid01.jpg" alt="product" class="img-responsive">
+									<i class="fa fa-plus" aria-hidden="true"></i>
+								</div> <!-- end .product-featured-img -->
+								<div class="product-details">
+									<p class="price"><sup>$</sup>350</p>
+									<h2 class="dark product-title">Gym bench</h2>
+									<p class="product-type">Equipment</p>
+									<div class="boxes">
+										<div class="left-box align-left">
+											<p class="small"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</p>
+										</div> <!-- end .left-box -->
+										<div class="right-box align-right">	
+											<p class="small"><i class="fa fa-star" aria-hidden="true"></i>4.75 (25 ratings)</p>
+										</div> <!-- end .right-box -->
+									</div> <!-- end .boxes -->
+								</div> <!-- end .product-details -->
+							</figure>
+						</div> <!-- end .item -->
+						<div class="item protein accessories">
+							<figure>
+								<div class="product-featured-img">
+									<img src="images/product-grid02.jpg" alt="product" class="img-responsive">
+									<i class="fa fa-plus" aria-hidden="true"></i>
+								</div> <!-- end .product-featured-img -->
+								<div class="product-details">
+									<p class="price"><sup>$</sup>260</p>
+									<h2 class="dark product-title">Gym bike</h2>
+									<p class="product-type">Equipment</p>
+									<div class="boxes">
+										<div class="left-box align-left">
+											<p class="small"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</p>
+										</div> <!-- end .left-box -->
+										<div class="right-box align-right">	
+											<p class="small"><i class="fa fa-star" aria-hidden="true"></i>4.75 (25 ratings)</p>
+										</div> <!-- end .right-box -->
+									</div> <!-- end .boxes -->
+								</div> <!-- end .product-details -->
+							</figure>
+						</div> <!-- end .item -->
+						<div class="item vitamins">
+							<figure>
+								<div class="product-featured-img">
+									<img src="images/product-grid03.jpg" alt="product" class="img-responsive">
+									<i class="fa fa-plus" aria-hidden="true"></i>
+								</div> <!-- end .product-featured-img -->
+								<div class="product-details">
+									<p class="price"><sup>$</sup>170</p>
+									<h2 class="dark product-title">Gym stepper</h2>
+									<p class="product-type">Equipment</p>
+									<div class="boxes">
+										<div class="left-box align-left">
+											<p class="small"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</p>
+										</div> <!-- end .left-box -->
+										<div class="right-box align-right">	
+											<p class="small"><i class="fa fa-star" aria-hidden="true"></i>4.75 (25 ratings)</p>
+										</div> <!-- end .right-box -->
+									</div> <!-- end .boxes -->
+								</div> <!-- end .product-details -->
+							</figure>
+						</div> <!-- end .item -->
+						<div class="item protein financial-services">
+							<figure>
+								<div class="product-featured-img">
+									<img src="images/product-grid04.jpg" alt="product" class="img-responsive">
+									<i class="fa fa-plus" aria-hidden="true"></i>
+								</div> <!-- end .product-featured-img -->
+								<div class="product-details">
+									<p class="price"><sup>$</sup>40</p>
+									<h2 class="dark product-title">Gym dumbbell</h2>
+									<p class="product-type">Equipment</p>
+									<div class="boxes">
+										<div class="left-box align-left">
+											<p class="small"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</p>
+										</div> <!-- end .left-box -->
+										<div class="right-box align-right">	
+											<p class="small"><i class="fa fa-star" aria-hidden="true"></i>4.75 (25 ratings)</p>
+										</div> <!-- end .right-box -->
+									</div> <!-- end .boxes -->
+								</div> <!-- end .product-details -->
+							</figure>
+						</div> <!-- end .item -->
+						<div class="item accessories vitamins business-services protein">
+							<figure>
+								<div class="product-featured-img">
+									<img src="images/product-grid05.jpg" alt="product" class="img-responsive">
+									<i class="fa fa-plus" aria-hidden="true"></i>
+								</div> <!-- end .product-featured-img -->
+								<div class="product-details">
+									<p class="price"><sup>$</sup>310</p>
+									<h2 class="dark product-title">Gym bench</h2>
+									<p class="product-type">Equipment</p>
+									<div class="boxes">
+										<div class="left-box align-left">
+											<p class="small"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</p>
+										</div> <!-- end .left-box -->
+										<div class="right-box align-right">	
+											<p class="small"><i class="fa fa-star" aria-hidden="true"></i>4.75 (25 ratings)</p>
+										</div> <!-- end .right-box -->
+									</div> <!-- end .boxes -->
+								</div> <!-- end .product-details -->
+							</figure>
+						</div> <!-- end .item -->
+						<div class="item vitamins protein">
+							<figure>
+								<div class="product-featured-img">
+									<img src="images/product-grid06.jpg" alt="product" class="img-responsive">
+									<i class="fa fa-plus" aria-hidden="true"></i>
+								</div> <!-- end .product-featured-img -->
+								<div class="product-details">
+									<p class="price"><sup>$</sup>400</p>
+									<h2 class="dark product-title">Gym treadmill</h2>
+									<p class="product-type">Equipment</p>
+									<div class="boxes">
+										<div class="left-box align-left">
+											<p class="small"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</p>
+										</div> <!-- end .left-box -->
+										<div class="right-box align-right">	
+											<p class="small"><i class="fa fa-star" aria-hidden="true"></i>4.75 (25 ratings)</p>
+										</div> <!-- end .right-box -->
+									</div> <!-- end .boxes -->
+								</div> <!-- end .product-details -->
+							</figure>
+						</div> <!-- end .item -->
+					</div> <!-- end .product3Col -->
+					<a href="#0" class="button load-more">More products</a>
+				</div> <!-- end .container -->
+			</div> <!-- end .inner -->
+		</div> <!-- end .section -->
+
+		
+
+		<!-- Contact Us section -->
+		<div class="section text-left contact-us-section">
+			<div class="row aligned-cols no-gutter">
+				<div class="col-md-2">
+					<div class="contact-us-left">
+						<img src="images/background04.jpg" alt="join us" class="img-responsive">
+					</div> <!-- end .join-us-left -->
+				</div> <!-- end .col-md-2 -->
+				<div class="col-md-10">
+					<div class="contact-us-right">
+						<div class="row">
+							<div class="col-md-7">					
+								<div class="contact-us-text">
+									<h1 class="small">Possui alguma duvida?</h1>
+									<p>Caso tenha qualquer dúvida, sinta-se a vontade para falar conosco a qualquer momento<br>faremos o possível para responder todas elas o mais breve possível</p>
+								</div> <!-- end .join-us-text -->
+							</div> <!-- end .col-md-7 -->
+							<div class="col-md-5">
+								<div class="contact-us-button">
+									<a href="#0" class="button right-skewed"><div>Contact Us<i class="fa fa-long-arrow-right" aria-hidden="true"></i></div></a>
+								</div> <!-- end .join-us-button -->
+							</div> <!-- end .col-md-7 -->
+						</div> <!-- end .row -->
+					</div> <!-- end .join-us-right -->
+				</div> <!-- end .col-md-10 -->
+			</div> <!-- end .row -->
+		</div> <!-- end .section -->
+
+		
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="top">
+				<div class="container">
+					<div class="row">
+						<div class="footer-title text-center">
+							<img src="images/barbell-icon.png" alt="barbell-icon" class="img-responsive">
+							<h2>Fitness<span>pro</span></h2>						
+						</div> <!-- end .footer-title -->
+						<div class="widgets">
+							<div class="col-md-4 col-sm-6">
+								<div class="widget-1">
+									<h2>About Us</h2>
+									<p>We are one of the most awarded and<br>largest fitness centres. We have highly<br>equiped gym and also shop with wide range of products.</p>									
+									<div class="contact-info">
+										<ul class="list-unstyled">
+											<li><a href="http://maps.apple.com/?q=51.507269,-0.127695"><i class="fa fa-map-marker" aria-hidden="true"></i>20 williams street</a></li>
+											<li><a href="tel:1900-45-20"><i class="fa fa-phone" aria-hidden="true"></i>1900-45-20</a></li>
+											<li><a href="mailto:fitnesspro@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>fitnesspro@gmail.com</a></li>
+										</ul>
+									</div> <!-- end .contact-info -->
+								</div> <!-- end .widget-1 -->
+							</div> <!-- end .col-md-4 -->
+							<div class="col-md-4 col-sm-6">
+								<div class="widget-2">
+									<h2>Latest Posts</h2>
+									<div class="recent-posts">
+										<img src="images/blog01.jpg" alt="blog" class="img-responsive">
+										<i class="fa fa-plus" aria-hidden="true"></i>
+										<h2>Training tips</h2>									
+										<p class="publish-date">6 sept, 2016</p>
+									</div>
+									<div class="recent-posts">
+										<img src="images/blog02.jpg" alt="blog" class="img-responsive">
+										<i class="fa fa-plus" aria-hidden="true"></i>
+										<h2>Greatest workout</h2>									
+										<p class="publish-date">28 aug, 2016</p>
+									</div>
+									<div class="recent-posts">
+										<img src="images/blog03.jpg" alt="blog" class="img-responsive">
+										<i class="fa fa-plus" aria-hidden="true"></i>
+										<h2>Best exercises</h2>									
+										<p class="publish-date">20 aug, 2016</p>
+									</div>
+								</div> <!-- end .widget-2 -->							
+							</div> <!-- end .col-md-4 -->						
+							<div class="col-md-4 col-sm-6">
+								<div class="widget-3">
+									<h2>Stay in touch</h2>
+									<p>To stay in touch with us and get informed<br>for latest updates and promotions, just<br>type your email below</p>
+										<form action="http://fitnesspro.wecookcode.com/demo/submit" class="newsletter-form">
+											<div class="form-group">
+												<input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Your Email ...">
+											</div>												
+											<div class="form-submit">
+												<button type="submit" id="mc-embedded-subscribe" name="subscribe" class="btn dropdown-toggle" data-text="Submit"><span><i class="fa fa-paper-plane" aria-hidden="true"></i></span></button>
+											</div> <!-- end .form-submit -->
+											<div id="newsletter-loading" class="alert alert-info form-alert" style="display: none;">
+												<span class="message">Loading...</span>
+											</div>
+											<div id="newsletter-info" class="alert alert-info form-alert">
+												<span class="message">Info</span>
+											</div>
+											<div id="newsletter-success" class="alert alert-success form-alert">
+												<span class="message">Success!</span>
+											</div>
+											<div id="newsletter-error" class="alert alert-danger form-alert">
+												<span class="message">Please enter a valid email.</span>
+											</div>
+										</form>
+									<div class="social-icons">
+										<ul class="list-unstyled">
+											<li><i class="fa fa-facebook"></i></li>
+											<li><i class="fa fa-twitter"></i></li>
+											<li><i class="fa fa-google-plus"></i></li>
+											<li><i class="fa fa-skype"></i></li>
+										</ul>
+									</div> <!-- end .social-icons -->
+								</div>	<!-- end .widget-3 -->						
+							</div> <!-- end .col-md-4 -->	
+						</div> <!-- end .widgets -->
+					</div> <!-- end .row -->
+				</div> <!-- end .container -->
+			</div> <!-- end .top -->
+			<div class="bottom">
+				<div class="container">
+					<div class="copyright-text">
+					 	<p>&copy; 2017<a href="#0">fitnesspro</a>By unicdesign. All Rights Reserved</p>
+					 </div> <!-- end .copyright-text -->
+				</div> <!-- end .container -->
+			</div> <!-- end .bottom -->
+		</footer> <!-- end .footer -->
+		
+		<!-- Scripts -->
+		<!-- jQuery -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- google maps -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAy-PboZ3O_A25CcJ9eoiSrKokTnWyAmt8"></script>
+		<!-- Owl Carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Wow.js -->
+		<script src="js/wow.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- CountTo -->
+		<script src="js/jquery.countTo.js"></script>
+		<!-- Isotope -->
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<!-- Magnific-Popup -->
+		<script src="scripts/magnific-popup/jquery.magnific-popup.js"></script>
+		<!-- Scripts.js -->
+		<script src="js/scripts.js"></script>
+
+	</body>
+
+<!-- Mirrored from fitnesspro.wecookcode.com/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 30 Sep 2017 03:47:48 GMT -->
 </html>
